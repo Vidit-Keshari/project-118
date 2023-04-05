@@ -1,0 +1,48 @@
+body {
+    background: hsla(171, 100%, 75%, 1);
+    background: linear-gradient(270deg, hsla(171, 100%, 75%, 1) 0%, hsla(236, 100%, 60%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(171, 100%, 75%, 1) 0%, hsla(236, 100%, 60%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(171, 100%, 75%, 1) 0%, hsla(236, 100%, 60%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#7EFFEC", endColorstr="#3542FF", GradientType=1);
+}
+
+#score {
+    font-size: x-large;
+    float: left;
+    margin-left: 30;
+}
+
+#timer {
+    font-size: x-large;
+    float: right;
+    margin-right: 50;
+}
+
+#Sketch_draw {
+    font-size: large;
+    color: springgreen;
+    background-color: tomato;
+}
+
+h1 {
+    color: salmon;
+    background-color: navajowhite;
+}
+
+#Show_sketch {
+    float: right;
+    margin-right: 20px;
+    margin-top: 3.5px;
+}
+
+canvas {
+    margin-top: 100px;
+    animation: example 4s infinite;
+    border: 10px ridge;
+    border-radius: 20px;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 10px 10px pink;}
+    to{box-shadow: 1px 1px 10px 10px orange;}
+}
